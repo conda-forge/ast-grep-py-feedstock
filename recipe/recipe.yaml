@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.41.1"
+  version: "0.42.0"
 
 package:
   name: ast-grep-py
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ast-grep-py/ast_grep_py-${{ version }}.tar.gz
-  sha256: f2aed9e5703d076905fdb26d580f176435c97837841da6a2caa95685eac4a046
+  sha256: 822ef35f5cb8bf22b9899ee0fa19e5f7ee4e329e923a89ef5852b4c28a5acad6
 
 build:
   number: 0
