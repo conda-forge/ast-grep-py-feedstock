@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.50.0"
+  version: "0.51.0"
 
 package:
   name: ast-grep-py
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ast-grep-py/ast_grep_py-${{ version }}.tar.gz
-  sha256: 6d701d62bd7edcd15ac791789982bacf21875ab098144729611f0c40d6833e5e
+  sha256: a34c88e120257f5887e82e2a77dd610c24c22d32e45a31be814edd3cd24e419d
 
 build:
-  number: 1
+  number: 0
   script:
     - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
